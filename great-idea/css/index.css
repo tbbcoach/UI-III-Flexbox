@@ -102,17 +102,10 @@ container {
 		width: 30%;
 		height: 30%;
 		padding: 2%;
-		margin: 200px;
+		margin: 2px;
 		justify-content: space-evenly;
 		display: flex;
-	}
-
-	.services div{
-
-		border: 1px solid black;
-		width: 33%;
-		height: 20px;
-		justify-content: flex-start;
+		flex-wrap: wrap;
 	}
 
 	
