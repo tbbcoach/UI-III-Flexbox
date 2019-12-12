@@ -65,32 +65,55 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+
 Nav {
 	border: 2px solid black;
-}
-
-.logo {
 	display: flex;
-	justify-content: even-spacing;
 }
+	a {
+		color: gray;
+		margin: 2%;
+	  }
 
-.services-header-img {
+	img .logo {
+		justify-content: flex-end;
+	
+	
+
+	}
+container {
 	display: flex;
-	justify-content: space-evenly;
-
-p {
-	border: 2px solid black;
 
 }
+	.services-header-img {
+		
+		width: 50%;
+		height: 50%;
+		justify-content: space-evenly;
+	}
+	
+	section {
 
-.Facts {
-	border: 2px solid black;
+		display: flex;
+	}
 
-}
+	div {
+		width: 30%;
+		height: 30%;
+		padding: 2%;
+		margin: 200px;
+		justify-content: space-evenly;
+		display: flex;
+	}
 
-.container .services {
-	border: 1px solid black;
-	width: 200px;
-	height: 75px;
+	.services div{
 
-}
+		border: 1px solid black;
+		width: 33%;
+		height: 20px;
+		justify-content: flex-start;
+	}
+
+	
+	
