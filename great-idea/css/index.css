@@ -67,13 +67,15 @@ h1, h2, h3, h4, h5 {
 
 header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	height: 10vh;
 
 }
 
 nav {
 	display: flex;
-	width: 70%;
+	width: 60%;
+	height: 10vh;
 	border: 2px solid red;
 	justify-content: space-evenly;
 }
@@ -92,24 +94,30 @@ a {
 .bottom-section {
 	display: flex;
 	justify-content: space-between;
+	width: 60%;
 	margin: 2% 5%;
 }
 
  .bottom-section div {
 	border: 2px solid purple;
-	height; 10vh;
-	width: 30%;
+	height: 10vh;
+	width: 47%;
+}
+
+img {
+	width: 60%;
+	margin: 1% 5%;
 }
 
 .below-pic {
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
+	width: 60%;
 	margin-left: 5%;
 }
 
 .below-pic div {
 	border: 2px solid purple;
 	height: 20vh;
-	width: 17%;
+	width: 30%;
 }
