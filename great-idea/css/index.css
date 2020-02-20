@@ -84,7 +84,6 @@ header {
 nav {
 	display: flex;
 	width: 60%;
-	border: 2px solid red;
 	justify-content: space-evenly;
 }
 
@@ -120,7 +119,6 @@ button {
 }
 
  .bottom-section div {
-	border: 2px solid purple;
 	height: 10vh;
 	width: 47%;
 }
@@ -138,13 +136,11 @@ img {
 }
 
 .below-pic div {
-	border: 2px solid purple;
 	height: 20vh;
 	width: 30%;
 }
 
 footer {
-	border: 2px solid green;
 	width: 60%;
 	margin: 1% 5%;
 }
@@ -152,3 +148,53 @@ footer {
 footer p {
 	text-align: center;
 }
+
+container section .services {
+	border: 2px solid red;
+	width: 60%;
+	margin: 0 5%;
+}
+
+container section .DigitalDesign {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;
+}
+
+container section .UXUI {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;		
+}
+
+container section .DigitalMarketing {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;			
+}
+
+container section .WebDevelopment {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;			
+}
+
+container section .OSDevelopment {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;			
+}
+
+container section .AndroidDevelopment {
+	border: 2px solid blue;
+	width: 30%;
+	margin: 0 5%;			
+}
+
+.Facts {
+	border: 2px solid green;
+	width: 60%;
+	margin: 0 5%;
+}
+
+
