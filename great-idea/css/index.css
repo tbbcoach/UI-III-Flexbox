@@ -68,14 +68,22 @@ h1, h2, h3, h4, h5 {
 header {
 	display: flex;
 	justify-content: space-between;
-	height: 10vh;
+	width: 60%;
+	margin: 2% 5%;
 
 }
+
+.logo {
+	width: 20%;
+	height: 3bvh;
+	
+}
+
+
 
 nav {
 	display: flex;
 	width: 60%;
-	height: 10vh;
 	border: 2px solid red;
 	justify-content: space-evenly;
 }
@@ -89,6 +97,9 @@ a {
 
 .top-section {
 	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 2% 5%;
 }
 
 .bottom-section {
