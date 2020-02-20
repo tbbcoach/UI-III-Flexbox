@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+<<<<<<< HEAD
 header {
 	display: flex;
 	justify-content: space-evenly;
@@ -84,3 +85,50 @@ a {
 	text-decoration: none;
 	color: grey;
 }
+=======
+
+
+Nav {
+	border: 2px solid black;
+	display: flex;
+}
+	a {
+		color: gray;
+		margin: 2%;
+	  }
+
+	img .logo {
+		justify-content: flex-end;
+	
+	
+
+	}
+container {
+	display: flex;
+
+}
+	.services-header-img {
+		
+		width: 50%;
+		height: 50%;
+		justify-content: space-evenly;
+	}
+	
+	section {
+
+		display: flex;
+	}
+
+	div {
+		width: 30%;
+		height: 30%;
+		padding: 2%;
+		margin: 2px;
+		justify-content: space-evenly;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	
+	
+>>>>>>> 4478b162b2586658bd7d7c99f0409514c230cf67
