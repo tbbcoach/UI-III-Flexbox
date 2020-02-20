@@ -149,45 +149,57 @@ footer p {
 	text-align: center;
 }
 
+section .topics {
+	display: flex;
+	width: 60%;
+	margin: 5% 2%;
+	flex-wrap: wrap;
+}
+
 container section .services {
 	border: 2px solid red;
 	width: 60%;
 	margin: 0 5%;
 }
-
-container section .DigitalDesign {
+section .topics .DigitalDesign {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;
 }
 
-container section .UXUI {
+section .topics .UXUI {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;		
 }
 
-container section .DigitalMarketing {
+section .topics .DigitalMarketing {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;			
 }
 
-container section .WebDevelopment {
+section .topics .WebDevelopment {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;			
 }
 
-container section .OSDevelopment {
+section .topics .OSDevelopment {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;			
 }
 
-container section .AndroidDevelopment {
+section .topics .AndroidDevelopment {
 	border: 2px solid blue;
-	width: 30%;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;			
 }
 
