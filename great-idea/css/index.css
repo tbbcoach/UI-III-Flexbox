@@ -76,7 +76,7 @@ header {
 .logo {
 	width: 20%;
 	height: 3bvh;
-	
+
 }
 
 
@@ -100,6 +100,16 @@ a {
 	justify-content: space-between;
 	width: 60%;
 	margin: 2% 5%;
+}
+
+.top-section p {
+	font-size: 4rem;
+	margin: 0 45%
+}
+
+button {
+	margin: 5% 50%;
+	width: 50%;
 }
 
 .bottom-section {
