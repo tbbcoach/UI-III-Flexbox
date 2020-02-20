@@ -91,8 +91,25 @@ a {
 
 .bottom-section {
 	display: flex;
+	justify-content: space-between;
+	margin: 2% 5%;
+}
+
+ .bottom-section div {
+	border: 2px solid purple;
+	height; 10vh;
+	width: 30%;
 }
 
 .below-pic {
 	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 5%;
+}
+
+.below-pic div {
+	border: 2px solid purple;
+	height: 20vh;
+	width: 17%;
 }
