@@ -149,58 +149,75 @@ footer p {
 	text-align: center;
 }
 
-section .topics {
+.header {
+	width: 100%;
+}
+
+.topics {
 	display: flex;
 	width: 60%;
 	margin: 5% 2%;
 	flex-wrap: wrap;
 }
 
-container section .services {
+.topics button {
+	margin: 2% 2%;
+}
+
+section .services {
 	border: 2px solid red;
 	width: 60%;
+	margin: 1% 5%;
+
+}
+.topics .DigitalDesign {
+	border: 2px solid blue;
+	width: 40%;
+	height: 30vh;
+	margin: 1% 5%;
+	padding: 3% 3%;
+	background-color: lightgray;
+}
+
+.topics .UXUI {
+	border: 2px solid blue;
+	width: 40%;
+	height: 30vh;
+	margin: 1% 5%;	
+	background-color: lightgray;	
+}
+
+.topics .DigitalMarketing {
+	border: 2px solid blue;
+	width: 40%;
+	height: 30vh;
+	margin: 1% 5%;
+	background-color: lightgray;			
+}
+
+.topics .WebDevelopment {
+	border: 2px solid blue;
+	width: 40%;
+	height: 30vh;
+	margin: 1% 5%;
+	background-color: lightgray;			
+}
+
+.topics .OSDevelopment {
+	border: 2px solid blue;
+	width: 40%;
+	height: 30vh;
 	margin: 0 5%;
+	background-color: lightgray;			
 }
-section .topics .DigitalDesign {
+
+.topics .AndroidDevelopment {
 	border: 2px solid blue;
 	width: 40%;
 	height: 30vh;
 	margin: 0 5%;
-}
+	background-color: lightgray;
 
-section .topics .UXUI {
-	border: 2px solid blue;
-	width: 40%;
-	height: 30vh;
-	margin: 0 5%;		
-}
-
-section .topics .DigitalMarketing {
-	border: 2px solid blue;
-	width: 40%;
-	height: 30vh;
-	margin: 0 5%;			
-}
-
-section .topics .WebDevelopment {
-	border: 2px solid blue;
-	width: 40%;
-	height: 30vh;
-	margin: 0 5%;			
-}
-
-section .topics .OSDevelopment {
-	border: 2px solid blue;
-	width: 40%;
-	height: 30vh;
-	margin: 0 5%;			
-}
-
-section .topics .AndroidDevelopment {
-	border: 2px solid blue;
-	width: 40%;
-	height: 30vh;
-	margin: 0 5%;			
 }
 
 .Facts {
