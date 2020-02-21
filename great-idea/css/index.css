@@ -148,8 +148,7 @@ footer {
 footer p {
 	text-align: center;
 }
-
-.header {
+Nav {
 	width: 100%;
 }
 
@@ -169,14 +168,29 @@ footer p {
 	margin: 5% 2%;
 }
 
+.DigitalMarketing button {
+	margin: 5% 2%;
+}
+
+.WebDevelopment button {
+	margin: 5% 2%;
+}
+
+.OSDevelopment button {
+	margin: 5% 2%;
+}
+
+.AndroidDevelopment button {
+	margin: 5% 2%;
+}
+
 section .services {
-	border: 2px solid red;
 	width: 60%;
 	margin: 1% 5%;
 
 }
 .topics .DigitalDesign {
-	border: 2px solid blue;
+	border: 2px solid;
 	width: 40%;
 	height: 30vh;
 	margin: 1% 5%;
