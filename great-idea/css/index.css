@@ -155,13 +155,18 @@ footer p {
 
 .topics {
 	display: flex;
-	width: 60%;
+	width: 67%;
 	margin: 5% 2%;
 	flex-wrap: wrap;
 }
 
-.topics button {
-	margin: 2% 2%;
+.DigitalDesign button {
+	margin: 5% 2%;
+	border-radius: 10%;
+}
+
+.UXUI button {
+	margin: 5% 2%;
 }
 
 section .services {
@@ -183,7 +188,8 @@ section .services {
 	border: 2px solid blue;
 	width: 40%;
 	height: 30vh;
-	margin: 1% 5%;	
+	margin: 1% 5%;
+	padding: 3% 3%;	
 	background-color: lightgray;	
 }
 
@@ -192,6 +198,7 @@ section .services {
 	width: 40%;
 	height: 30vh;
 	margin: 1% 5%;
+	padding: 3% 3%;
 	background-color: lightgray;			
 }
 
@@ -200,6 +207,7 @@ section .services {
 	width: 40%;
 	height: 30vh;
 	margin: 1% 5%;
+	padding: 3% 3%;
 	background-color: lightgray;			
 }
 
@@ -208,6 +216,7 @@ section .services {
 	width: 40%;
 	height: 30vh;
 	margin: 0 5%;
+	padding: 3% 3%;
 	background-color: lightgray;			
 }
 
@@ -216,6 +225,7 @@ section .services {
 	width: 40%;
 	height: 30vh;
 	margin: 0 5%;
+	padding: 3% 3%;
 	background-color: lightgray;
 
 }
